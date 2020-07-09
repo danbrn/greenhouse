@@ -377,7 +377,7 @@ rtc.ntp_sync('europe.pool.ntp.org')
 
 pycom.heartbeat(False)
 
-# Yellow light at or below 22 and at or abouve 27 C, red light and beeps at or below 18 and at or above 29.
+# Yellow light at or below 22 and at or above 27 C, red light and beeps at or below 18 and at or above 29.
 temp_limit = Limits(22, 18, 27, 29)
 
 # Relative humidity (%), warn -55 or 65+, alarm at -45 or 75+.
